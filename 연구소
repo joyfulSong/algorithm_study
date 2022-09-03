@@ -52,7 +52,7 @@ void bfs()
 
     while (!virus.empty())
     {
-        loc cur = virus.front();
+        //loc cur = virus.front(); 이렇게 해도 상관없음.
         int cur_x = virus.front().a;
         int cur_y = virus.front().b;
 
